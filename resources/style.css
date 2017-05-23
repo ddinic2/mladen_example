@@ -1,0 +1,439 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #24CF66;
+    height: 600px;
+    margin-bottom: 20px;
+}
+.header_h1{
+    color: #FAFF6A;
+    text-align: center;
+}
+.section_p{
+    margin-right: 10px;
+}
+.section_icon{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.side_p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.side_p1{
+    font-size: 12px;
+    margin-top: 100px;
+}
+.section_ul{
+    margin-left: 40px;
+
+}
+.first{
+    float: left;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.thesecond{
+    margin-left: 10px;
+}
+.side_p2{
+    font-size: 12px;
+    margin-top: 180px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+.side_p3{
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.side_p4{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.section_ul1>li{
+    display: inline-block;
+    font-size: 12px;
+}
+.section_ul1>li:first-child{
+    margin-right: 20px;
+}
+.solder_icon{
+    margin-top: 30px;
+}
+.section_p1{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.diagram_ul>li{
+    display: inline-block;
+    font-size: 12px;
+}
+.diagram_right{
+    float: left;
+    width: 50%;
+}
+.diagram_left{
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 3px;
+}
+.diagram_left> .diagram_ul >li >img {
+    margin-bottom: 1px;
+    margin-top: 11px;
+}
+.diagram_ul1>li{
+    display: list-item;
+}
+.left_50{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.right_50{
+    width: 50%;
+    float: left;
+}
+strong{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.mg_t_100{
+    margin-top: 100px;
+}
+.left_50_1{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 160px;
+}
+.right_50_1{
+    width: 50%;
+    float: left;
+    margin-top: 160px;
+}
+.img100{
+    width: 100%;
+    text-align: center;
+}
+.img100_1{
+    width: 100%;
+    text-align: left;
+    margin-top: 300px;
+    float: left;
+}
+.collor_footer{
+    background-color: #FF7162;
+    color: white;
+    padding: 20px;
+}
+@media only screen and (max-width: 1440px){
+    .side_p2{
+        margin-left: 50px;
+    }
+    .side_p3{
+        margin-left: 50px;
+    }
+    .side_p4{
+        margin-left: 50px;
+    }
+    .section_ul1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .header_h1{
+        font-size: 32px;
+    }
+    .container{
+        width: 100%;
+    }
+    .section_p{
+        margin-left: 20px;
+    }
+    h3{
+        margin-left: 20px;
+    }
+    p{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header_h1{
+        margin: 20px 20px 0 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .first{
+        margin-left: 10px;
+    }
+    .thesecond{
+        margin-left: 0;
+    }
+    .third{
+        margin-left: 0;
+        width: 275px;
+    }
+    .side_p2{
+        margin-left: 30px;
+        margin-top: 170px;
+    }
+    .side_p3, .side_p4{
+        margin-left: 30px;
+    }
+    .diagram_left{
+        margin-top: 25px;
+    }
+    .world_icon{
+        width: 275px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .header_h1{
+        font-size: 26px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .header{
+        height: 300px;
+    }
+    .section_icon{
+        margin-left: 50px;
+    }
+    .section_p{
+        margin-right: 20px;
+    }
+    .section_ul{
+        margin-right: 30px;
+    }
+    .first{
+        position: relative;
+        left: 80px;
+        width: 80px;
+    }
+    .thesecond{
+        position: absolute;
+        top: 3267px;
+        left: 71px;
+        width: 200px;
+    }
+    .third{
+        position: absolute;
+        top: 3537px;
+        left: 68px;
+    }
+    .section_ul1{
+        display: none;
+    }
+    .mg_t_350{
+        margin-top: 350px;
+    }
+    .side_p1{
+        position: absolute;
+        top: 3160px;
+        left: 260px;
+    }
+    .side_p2{
+        position: absolute;
+        top: 3153px;
+        left: 250px;
+    }
+    .side_p3{
+        position: absolute;
+        top: 3352px;
+        left: 250px;
+    }
+    .side_p4{
+        position: absolute;
+        top: 3397px;
+        left: 250px;
+    }
+    .solder_icon{
+        margin-left: 60px;
+    }
+    .strong_left{
+        margin-left: 20px;
+    }
+    .diagram_left{
+        margin-top: 4px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    .mg_t_100{
+        margin-top: 20px;
+    }
+    .left_50_1{
+        margin-top: 20px;
+    }
+    .right_50_1{
+        margin-top: 20px;
+    }
+    .img100_1{
+        margin-top: 40px;
+    }
+    .libra_icon{
+        margin-left: 60px;
+    }
+    .new_row_mob{
+        margin-left: 5px;
+    }
+    .position_p{
+        position: absolute;
+        top: 8980px;
+        left: 220px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .thesecond{
+        top: 3318px;
+    }
+    .third{
+        top: 3587px;
+    }
+    .side_p1{
+        top: 3200px;
+    }
+    .side_p2{
+        top: 3204px;
+    }
+    .side_p3{
+        top: 3405px;
+    }
+    .side_p4{
+        top: 3449px;
+    }
+    .position_p{
+        top: 9116px;
+        left: 200px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .section_icon{
+        margin-left: 30px;
+    }
+    .first{
+        position: relative;
+        left: 80px;
+        width: 80px;
+    }
+    .thesecond{
+        position: absolute;
+        top: 3489px;
+        left: 71px;
+        width: 200px;
+    }
+    .third{
+        position: absolute;
+        top: 3760px;
+        left: 68px;
+    }
+    .side_p1{
+        position: absolute;
+        top: 3360px;
+        left: 260px;
+    }
+    .side_p2{
+        position: absolute;
+        top: 3370px;
+        left: 250px;
+    }
+    .side_p3{
+        position: absolute;
+        top: 3570px;
+        left: 250px;
+    }
+    .side_p4{
+        position: absolute;
+        top: 3615px;
+        left: 250px;
+    }
+    .solder_icon{
+        margin-left: 30px;
+    }
+    h3{
+        margin-right: 20px;
+    }
+    .libra_icon{
+        margin-left: 30px;
+    }
+    .position_p{
+        top: 9533px;
+        left: 195px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .position_p {
+        top: 9819px;
+        left: 180px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .section_icon{
+        margin-left: 10px;
+    }
+    .first{
+        left: 50px;
+    }
+    .thesecond{
+        top: 3902px;
+        left: 41px;
+    }
+    .third{
+        top: 4171px;
+        left: 37px;
+    }
+    .side_p1{
+        position: absolute;
+        top: 3764px;
+        left: 246px;
+    }
+    .side_p2{
+        position: absolute;
+        top: 3782px;
+        left: 246px;
+        margin-left: 0px;
+    }
+    .side_p3{
+        position: absolute;
+        top: 3985px;
+        left: 246px;
+        margin-left: 0;
+    }
+    .side_p4{
+        position: absolute;
+        top: 4031px;
+        left: 246px;
+        margin-left: 0;
+    }
+    .solder_icon{
+        margin-left: 10px;
+    }
+    .diagram_left{
+        margin-top: 25px;
+    }
+    .libra_icon{
+        margin-left: 10px;
+    }
+    .position_p{
+        top: 10463px;
+        left: 170px;
+    }
+    h3{
+        font-size: 26px;
+    }
+}
+
+
+
+

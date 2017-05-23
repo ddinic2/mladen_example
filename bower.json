@@ -1,0 +1,17 @@
+{
+  "name": "mladen_example",
+  "authors": [
+    "Dejan <ddinic2@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
